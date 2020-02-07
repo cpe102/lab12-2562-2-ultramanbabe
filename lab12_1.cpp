@@ -20,7 +20,7 @@ int main()
 //Write definition of stat() here 
 
 void stat(const double A[], int N, double B[]){
-    double max = 0, min = 0;
+    double max = A[0], min = A[0];
     double sumSqr = 0;
     for(int i = 0; i < N; i++){
         B[0] += A[i]/N;
